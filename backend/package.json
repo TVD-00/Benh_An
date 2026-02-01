@@ -1,0 +1,31 @@
+{
+  "name": "medinote-backend",
+  "version": "1.0.0",
+  "description": "Backend API cho ứng dụng hỗ trợ viết bệnh án điện tử",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "medical",
+    "healthcare",
+    "api",
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5",
+    "openai": "^6.17.0",
+    "ws": "^8.19.0"
+  }
+}
